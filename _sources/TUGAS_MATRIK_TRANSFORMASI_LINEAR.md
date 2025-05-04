@@ -14,25 +14,16 @@ title: TUGAS_MATRIK_TRANSFORMASI
 buktikan bahwa T(v1,v2)-(v1+v2,v1) adalah transformasi linier
 
 ### Langkah 1: Memahami Arti Transformasi Linier
+Sebuah transformasi $T: {R}^n \rightarrow {R}^m$ dikatakan linier jika memenuhi dua syarat:
 
-Suatu fungsi transformasi $T: {R}^n \rightarrow {R}^m$ disebut transformasi linier jika memenuhi dua sifat utama, yaitu:
+ 1. Sifat Penjumlahan (Aditif):
 
-
-Sifat Penjumlahan (Aditif):
-  Untuk setiap vektor $\mathbf{u}$ dan $\mathbf{v}$, berlaku:
-  
-  \begin{equation*}
-    T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})
-  \end{equation*}
-  
-Sifat Perkalian Skalar (Homogen):
-  Untuk setiap skalar $c$ dan vektor $\mathbf{v}$, berlaku: 
-  \begin{equation*}
-    T(c\mathbf{v}) = cT(\mathbf{v})
-  \end{equation*}
+$T(\mathbf{u}+\mathbf{v})=T(\mathbf{u})+T(\mathbf{v})$ untuk semua vektor $\mathbf{u}, \mathbf{v}$.
 
 
+2. Sifat Perkalian Skalar (Homogen): $T(c \mathbf{v})=c T(\mathbf{v})$
 
+untuk semua skalar  $c$ dan vektor $\mathbf{v}$.
 
 ### Langkah 2: Verifikasi Aditivitas
 Misalkan:
